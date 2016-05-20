@@ -9,6 +9,12 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 
+# custom theme requirements
+gem 'therubyracer'
+gem 'less-rails-bootstrap'
+gem 'jquery-easing-rails'
+gem "font-awesome-rails"
+
 group :development do
   gem 'web-console', '~> 2.0'
   gem 'spring'
